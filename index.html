@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <title>BlueWeather</title>
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="stylesheet" href="css/main.css"/>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/main.js"></script>
+        <link rel="icon" href="icons/cloud.svg"/>
+    </head>
+ 
+    <body class="container">
+        <div id="header" class="disable-select">
+            <img id="logo" src="icons/1rainbow.svg">
+            <h2 class="text-right">BlueWeather</h2>
+        </div>
+        <div id="middle">
+            <div id="login" class="text-right">
+                <input type="text" id="city" placeholder="City"><br>
+                <input type="submit" value="Get Weather" onclick="getWeather()"><br>
+            </div>  
+            <div class="container disable-select" id="wdata">
+                <ul>
+                    <li><h1 id="temp"></h1></li>
+                    <li><h3 id="cname"></h3></li>
+                    <li><h3 id="desc"></h3></li>
+                    <li><h3 id="humid"></li>
+                    <li><h3 id="ws"></h3></li>
+                </ul>
+            </div>  
+        </div>
+       
+      
+    </body>
+</html> 
