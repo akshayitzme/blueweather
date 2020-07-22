@@ -1,8 +1,8 @@
 # BlueWeather
 Simple Weather Display App.
 - Fetch Current Weather of Any City. 
-- Shows RealFeel Temperature, City with Country Name, Humidity, Wind Speed.
-
+- Shows Actual Temperature, City with Country Name, Humidity, Wind Speed.
+- Auto Weather Display based on IP Location.
 
 ## Usage
 
