@@ -6,7 +6,7 @@ function getWeather() {
           var data = JSON.parse(this.responseText);
 
           /* Extracting Data */
-          let temp = data.data[0]["app_temp"];
+          let temp = data.data[0]["temp"];
           temp += "<sup>&#8451;</sup>";
           let country = data.data[0]["country_code"];
           //CityName
