@@ -1,80 +1,56 @@
 /* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
-body{
-    background: rgb(24,152,191);
-    background: radial-gradient(circle, rgba(24,152,191,1) 9%, rgba(0,212,255,1) 75%);
-}
 .disable-select {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    -webkit-user-drag: none;
 }
-#header{}
 
-    h2{
-        font-family: 'Titillium Web', sans-serif;
-        font-size: 40px;
-        color: white;
-    }
-    #logo{
-        width: 2.9em;
-        float: right;
-        margin-left: 1em;
-        display: inline-block;
-    }
-#login{}
-
-    input{
-        margin-top: 1em;
-    }
-    input[type=text]{
-        margin-top: 2em;
-        border: none;
-        border-bottom: 2px white solid;
-        background-color: transparent;   
-        color: white; 
-        padding-top: 10px;
-        font-size: 16px;
-    }
-    input[type=text]:focus{
-        font-size: 18px;
-    }
-    input[type=submit]{
-        width: 15.5em;
-        height: 2.5em;
-        float: center;
-        border: none;
-        border-radius: 5px;
-        opacity: 0.8;
-        transition: 0.3s;
-    }
-    input[type=submit]:hover{
-        opacity: 1;
-    }
-    ul{
-        list-style: none;
-    }
-#wdata{
-        margin-top: -8.5em;
-        margin-left: -3em;
-        color: white;
-        font-family: 'Baloo Da 2', cursive;
-    }
-    #temp{
-        font-family: 'Sora', sans-serif;
-        font-size: 70px;
-    }
-    #cname{
-        font-family: 'Baloo Da 2', cursive;
-        font-size: 20px;
-        margin-left: 5em;
-        margin-top: -0.5em;
-        
-    }
-
-
+body{
     
+    background: rgb(15,191,255);
+    background: linear-gradient(184deg, rgba(15,191,255,1) 26%, rgba(255,255,255,1) 100%);  
+}
+#header{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+   
+}
+#logo{
+    width: 1.5em;
+}
+#w-data{
+    background: rgb(15,191,255);
+    /* background: linear-gradient(356deg, rgba(15,191,255,1) 35%, rgba(255,255,255,1) 100%);  */
+}
+#temp{
+    font-family: 'Red Rose', cursive;
+    font-size: 5em;
+}
+#cname{
+    margin-right: -5em;
+    margin-top: -1em;
+    font-family: 'Baloo Da 2', cursive;
+    
+}
+#ws{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#humid{
+    font-family: 'Ubuntu', sans-serif;
+}
+#desc{
+    font-family: 'Ubuntu', sans-serif;
+}
+#card{
+    border-radius: 10px;
+}
