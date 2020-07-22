@@ -8,7 +8,7 @@ Simple Weather Display App.
 ## Usage
 
 - Type Cityname & Click Get Weather Button.
-- Weather Data's Will Be Shown on Left Side.
+- Weather Data's Will Be Shown.
 
 ## Credits
 
